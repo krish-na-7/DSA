@@ -1,7 +1,7 @@
 package Arrays;
 /*
     With this we can print all paris present inside an array
-    Time Complexity : O(n2)
+    Time Complexity : O(n^2)
     Space Complexity : O(1)
  */
 public class PrintAllPairs {
@@ -25,3 +25,20 @@ public class PrintAllPairs {
         printAllPairs(arr,size);
     }
 }
+/*
+Output:
+=======
+1,3
+1,5
+1,7
+1,9
+
+3,5
+3,7
+3,9
+
+5,7
+5,9
+
+7,9
+ */
