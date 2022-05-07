@@ -22,7 +22,7 @@ public class SubArraysSumBruteForce {
     }
     public static void main(String[] args)
     {
-        int[] arr = {-2,3,4,-1,5,-12,6,1,3};
+        int[] arr = {-2,6,4,-1,5,-10,6,2,3};
         int size = arr.length;
         System.out.println(subArraysSumBruteForce(arr,size));
     }
@@ -30,5 +30,5 @@ public class SubArraysSumBruteForce {
 /*
 Output:
 =======
-11
+15
  */
