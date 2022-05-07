@@ -39,7 +39,7 @@ public class BinarySearch {
     }
     public static void main(String[] args){
 
-        int array[] = new int[10];
+        int array[] = {7,25,34,44,57,61,77,81};
         int n = array.length;
         Scanner scn = new Scanner(System.in);
         int key = scn.nextInt();
