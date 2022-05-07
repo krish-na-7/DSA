@@ -7,7 +7,7 @@ public class SubArraysSumPrefixSum {
     public static int subArraysSumPrefixSum(int[] arr,int size)
     {
         //Prefix sums
-        int[] prefix = new int[20];
+        int[] prefix = new int[size];
         prefix[0] = arr[0];
         for(int i=1;i<size;i++)
         {
@@ -26,7 +26,7 @@ public class SubArraysSumPrefixSum {
     }
     public static void main(String[] args)
     {
-        int[] arr = {-2,3,4,-1,5,-12,6,1,3};
+        int[] arr = {-2,6,4,-1,5,-10,6,2,3};
         int size = arr.length;
         System.out.println(subArraysSumPrefixSum(arr,size));
     }
