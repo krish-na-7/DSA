@@ -20,7 +20,7 @@ public class PrintAllPairs {
     }
     public static void main(String[] args)
     {
-        int[] arr = {1,3,5,7,9};
+        int[] arr = {1,3,5,7,15};
         int size = arr.length;
         printAllPairs(arr,size);
     }
