@@ -22,7 +22,7 @@ public class SubArrays {
     }
     public static void main(String[] args)
     {
-        int[] arr = {2,5,3,7};
+        int[] arr = {2,3,1,7};
         int size = arr.length;
         printSubArrays(arr,size);
     }
