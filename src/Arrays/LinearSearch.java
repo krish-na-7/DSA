@@ -9,34 +9,34 @@ package Arrays;
    Worst Case Time Complexity - O(n)
  */
 
+import java.util.Scanner;
 public class LinearSearch {
+    static int linear_search(int[] arr, int n, int key){
 
-    public static int linearSearch(int[] arr,int size,int key)
-    {
-        //Check if current element matches with the key
-        for(int i=0;i<size;i++)
-        {
-            if(arr[i]==key)
-            {
+        for(int i=0; i<n; i++){
+            //Check if current element matches with the key
+            if(arr[i] == key){
                 return i;
             }
         }
+        //out of the loop
         return -1;
     }
+    public static void main(String[] args){
 
-    public static void main(String[] args)
-    {
-        int[] arr = {2,5,1,4,8,77,21,49,35,42,56 };
-        int size = arr.length;
-        int key=35;
-        int index = linearSearch(arr,size,key);
-        if(index!=-1)
-        {
-            System.out.println(key+" is present at index "+index);
+        Scanner scn = new Scanner(System.in);
+
+        int[] arr = {10,15,12,9,6,4,3,10,8};
+        int n = arr.length;
+
+        int key = scn.nextInt();
+
+        int index = linear_search(arr,n,key);
+        if(index!=-1){
+            System.out.println(key  + " is present at index " +  index);
         }
-        else
-        {
-            System.out.println(key+" Not Found !!!");
+        else{
+            System.out.println(key  + " is NOT Found!");
         }
     }
 }
