@@ -20,7 +20,7 @@ public class ReverseArray {
 
     public static void main(String[] args)
     {
-        int[] arr = {123,89,67,55,43,39,21,15,4,1};
+        int[] arr = {123,89,67,55,43,39,21,15,7,3};
         int size = arr.length;
         System.out.println("Original Array : ");
         for(int i : arr)
